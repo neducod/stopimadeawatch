@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.stop-watch{
+    width: 480px;
+    height: 200px;
+  background: rgb(17, 4, 134);
+  border-radius: 15px;
+  box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.stop-watch:hover{
+    box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
+}
+.stop-watch h3{
+    text-align: center;
+    font-size: 25px;
+}
+.stop-watch h1{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stop-watch h1:hover{
+    font-size: 35px;
+  margin-left: 5px;
+}
+.stop-watch button{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #9ae6fb;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #eeeaea;
+    margin-bottom: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.stop-watch button:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
+  }
+  
+  
